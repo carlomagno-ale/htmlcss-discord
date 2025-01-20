@@ -1,12 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-    /*da disattivare*/
+   /*da disattivare*/
     /*border-style: dashed;*/
-
-}
 
 /*debug da disattivare*/
 
@@ -87,21 +80,46 @@
 
 /* debug disattivato*/
 
-/*header*/
 
-/*common*/
+/*colors*/
 
 :root {
 
     --primary-top-color: #3161e0;
     --dark-color: #23272a;
     --text-hover-button-light: white;
+    --link-color: white;
+    --link-color-hover-light: #7289da;
+
+}
+
+
+
+/*common*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: sans-serif;
 }
 
 a:link {
 
     text-decoration: none;
+    color: var(--link-color);
     
+}
+
+a:hover {
+
+    color: var(--link-color-hover-light);
+}
+
+nav {
+
+    font-weight: bold;
+    font-size: small;
 }
 
 button {
@@ -152,29 +170,27 @@ button:hover {
 
 }
 
-.text-color {
-
-    color: aliceblue;
-    font-weight: bold;
-}
-
-nav {
-
-    color: azure;
-}
-
 
 /*jumbotron*/
 
 .jumbotron {
 
     padding-block: 5%;
+    
 
 }
 
 .j-content {
 
     min-width: 60%;
+    
+}
+
+section:nth-of-type(1) {
+
+ 
+    background-image: url("../assets/img/jumbo.png") ;
+    background-color: red;
 
 }
 
