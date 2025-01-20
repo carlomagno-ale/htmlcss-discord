@@ -80,10 +80,6 @@
 
 /* debug disattivato*/
 
- * {
-
-     border: dashed 1px;
- }
 
  /*colors*/
 
@@ -96,6 +92,7 @@
      --text-color-light: white;
      --link-color-hover-light: #7289da;
      --bg-color-even: #f6f6f6;
+     --divider: #465068;
 
  }
 
@@ -183,6 +180,8 @@
  .w-30 {
 
      width: 30%;
+     padding-top: 3%;
+     color: var(--text-color-light);
  }
 
  .w-40 {
@@ -355,13 +354,14 @@
 
 
 
- /*adventure*/
+ /*corporate menu*/
 
- #adventure {
+ #corporate-menu {
 
-     background-color: black;
+     background-color: var(--dark-color);
      padding-top: 1%;
      padding-bottom: 3%;
+     
 
  }
 
@@ -374,11 +374,29 @@
      align-items: center;
      width: 70%;
      margin-top: 2%;
+     margin-bottom: 2%;
 
  }
 
  footer {
 
-     border-top: 1px solid grey;
-     background-color: black;
+     border-top: 1px solid var(--divider);
+     background-color: var(--dark-color);
+ }
+
+
+ .flag {
+
+        height: 1rem;
+    
+ }
+
+ ul {
+
+    list-style-type: none;
+ }
+
+ h4 {
+
+    color: var(--link-color-hover-light);
  }
