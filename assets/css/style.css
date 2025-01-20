@@ -1,9 +1,9 @@
-   /*da disattivare*/
-   /*border-style: dashed;*/
+ /*da disattivare*/
+ /*border-style: dashed;*/
 
-   /*debug da disattivare*/
+ /*debug da disattivare*/
 
-   /*.debug {
+ /*.debug {
 
     .header-container {
         background-color: aqua;
@@ -80,252 +80,270 @@
 
 /* debug disattivato*/
 
+ * {
 
-   /*colors*/
+     border: dashed 1px;
+ }
 
-   :root {
+ /*colors*/
 
-       --primary-top-color: #255ee9;
-       --dark-color: #23272a;
-       --text-hover-button-light: white;
-       --link-color: white;
-       --text-color-light: white;
-       --link-color-hover-light: #7289da;
+ :root {
 
-   }
+     --primary-top-color: #255ee9;
+     --dark-color: #23272a;
+     --text-hover-button-light: white;
+     --link-color: white;
+     --text-color-light: white;
+     --link-color-hover-light: #7289da;
 
+ }
 
 
-   /*common*/
 
-   * {
-       margin: 0;
-       padding: 0;
-       box-sizing: border-box;
-       font-family: sans-serif;
-   }
+ /*common*/
 
-   a:link {
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+ }
 
-       text-decoration: none;
-       color: var(--link-color);
+ a:link {
 
-   }
+     text-decoration: none;
+     color: var(--link-color);
 
-   a:hover {
+ }
 
-       color: var(--link-color-hover-light);
-   }
+ a:hover {
 
-   nav {
+     color: var(--link-color-hover-light);
+ }
 
-       font-weight: bold;
-       font-size: small;
-   }
+ nav {
 
-   button {
+     font-weight: bold;
+     font-size: small;
+ }
 
-       border-radius: 2rem;
-       padding-inline: 0.9rem;
-       padding-block: 0.7rem;
-       border: none;
-       cursor: pointer;
-       font-weight: bold;
+ button {
 
-   }
+     border-radius: 2rem;
+     padding-inline: 0.9rem;
+     padding-block: 0.7rem;
+     border: none;
+     cursor: pointer;
+     font-weight: bold;
 
-   button:hover {
+ }
 
-       background-color: var(--dark-color);
-       color: var(--text-hover-button-light);
-   }
+ button:hover {
 
-   /*utility*/
+     background-color: var(--dark-color);
+     color: var(--text-hover-button-light);
+ }
 
+ .img-size {
 
-   .flex-container {
+    width:100%;
 
-       display: flex;
-       justify-content: center;
+ }
+ 
+.section-title {
 
+    font-size: 2rem;
+    margin-bottom: 2rem;
+ }
 
-   }
+ /*utility*/
 
-   .wrap {
 
-       flex-wrap: wrap;
-   }
+ .flex-container {
 
-   .w-25 {
+     display: flex;
+     justify-content: center;
 
-       width: 25%;
-   }
 
-   .w-30 {
+ }
 
-       width: 30%;
+ .wrap {
 
-   }
+     flex-wrap: wrap;
+ }
 
-   .w-40 {
-       width: 40%;
 
-   }
+ .w-25 {
 
-   .w-60 {
+     width: 25%;
+ }
 
-       width: 60%;
+ .w-30 {
 
-   }
+     width: 30%;
+ }
 
-   .w-70 {
+ .w-40 {
+     width: 40%;
+     align-content: center;
 
-       width: 70%;
-   }
+ }
 
-   .section-class {
+ .w-60 {
 
-       padding: 5% 15%;
+     width: 60%;
+     align-content: flex-start;
 
-   }
+ }
 
-   .h-div-900 {
+ .w-70 {
 
-       width: 100%;
-   }
+     width: 70%;
+ }
 
-   /*header*/
+ .section-class {
 
-   .header-container {
-       padding: 1%;
-       background-color: var(--primary-top-color);
-   }
+     padding: 5% 15%;
 
+ }
 
-   .left {
-       justify-content: start;
-       align-items: center;
-   }
+ .h-div-900 {
 
-   .right {
-       align-items: center;
-       justify-content: end;
-   }
+     width: 100%;
+ }
 
-   .left,
-   .right {
-       width: 20%;
+ /*header*/
 
-   }
+ .header-container {
+     padding: 1%;
+     background-color: var(--primary-top-color);
+ }
 
-   .center {
-       width: 40%;
-       justify-content: center;
-       align-items: center;
-       gap: 1rem;
 
-   }
+ .left {
+     justify-content: start;
+     align-items: center;
+ }
 
+ .right {
+     align-items: center;
+     justify-content: end;
+ }
 
-   /*jumbotron*/
+ .left,
+ .right {
+     width: 20%;
 
-   .jumbotron {
+ }
 
-       padding-block: 5%;
-       background-image: url("../img/jumbo.png");
-       background-size: cover;
-       height: 500px;
+ .center {
+     width: 40%;
+     justify-content: center;
+     align-items: center;
+     gap: 1rem;
 
-   }
+ }
 
-   .j-content {
 
-       width: 40%;
-       text-align: center;
-       color: var(--text-color-light);
+ /*jumbotron*/
 
-       h1 {
+ .jumbotron {
 
-           font-size: 3rem;
-       }
+     padding-block: 5%;
+     background-image: url("../img/jumbo.png");
+     background-size: cover;
+     height: 500px;
 
-       .p-jumbo {
+ }
 
-           margin-top: 2rem;
-           margin-bottom: 2rem;
-       }
+ .j-content {
 
+     width: 40%;
+     text-align: center;
+     color: var(--text-color-light);
 
-       .h-button {
+     h1 {
 
-           height: 60px;
-           padding-inline: 2rem;
-           margin-inline: 0.7rem;
+         font-size: 3rem;
+     }
 
-       }
+     .p-jumbo {
 
-       .b-download {
+         margin-top: 2rem;
+         margin-bottom: 2rem;
+     }
 
-           font-size: 1rem;
 
-       }
+     .h-button {
 
-       .symbol {
+         height: 60px;
+         padding-inline: 2rem;
+         margin-inline: 0.7rem;
 
-        font-size: 0.9rem;
+     }
 
-       }
+     .b-download {
 
-       .b-browser {
+         font-size: 1rem;
 
-           font-size: 1rem;
-           background-color: var(--dark-color);
-           color: var(--text-color-light);
+     }
 
-       }
+     .symbol {
 
-       .b-browser:hover {
+         font-size: 0.9rem;
 
-           background-color: var(--link-color-hover-light);
+     }
 
-       }
+     .b-browser {
 
-       .b-download:hover {
+         font-size: 1rem;
+         background-color: var(--dark-color);
+         color: var(--text-color-light);
 
-           background-color: var(--link-color-hover-light);
+     }
 
-       }
+     .b-browser:hover {
 
-   }
+         background-color: var(--link-color-hover-light);
 
+     }
 
+     .b-download:hover {
 
+         background-color: var(--link-color-hover-light);
 
+     }
 
-   /*adventure*/
+ }
 
-   #adventure {
 
-       background-color: black;
-       padding-top: 1%;
-       padding-bottom: 3%;
 
-   }
 
-   /*footer*/
 
-   .container-footer {
+ /*adventure*/
 
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       width: 70%;
-       margin-top: 2%;
+ #adventure {
 
-   }
+     background-color: black;
+     padding-top: 1%;
+     padding-bottom: 3%;
 
-   footer {
+ }
 
-       border-top: 1px solid grey;
-       background-color: black;
-   }
+ /*footer*/
+
+ .container-footer {
+
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 70%;
+     margin-top: 2%;
+
+ }
+
+ footer {
+
+     border-top: 1px solid grey;
+     background-color: black;
+ }
