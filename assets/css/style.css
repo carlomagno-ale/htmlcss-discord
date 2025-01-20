@@ -206,6 +206,7 @@
  .w-70 {
 
      width: 70%;
+     padding-top: 3%;
  }
 
  .section-class {
@@ -410,24 +411,35 @@
  .title-footer {
 
      color: var(--link-color-hover-light);
+
  }
 
  .list {
+
 
 
  }
 
  .social {
 
-
     width: 1.5rem;
     height: 1.5rem;
+    margin-top: 1rem;
 
+ }
 
+ .language-box {
+
+    margin-top: 1rem;
+
+    .language {
+        font-size: 10px;
+    }
  }
 
 
  .flex {
 
     display: flex;
+    
  }
