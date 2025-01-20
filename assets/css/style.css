@@ -141,8 +141,8 @@
 
  button:hover {
 
-     background-color: var(--dark-color);
-     color: var(--text-hover-button-light);
+     background-color: var(--link-color-hover-light);
+     color: var(--text-color-light);
  }
 
  .img-size {
@@ -311,19 +311,48 @@
 
      }
 
-     .b-download:hover {
-
-         background-color: var(--link-color-hover-light);
-
-     }
-
  }
 
+ /*/jumbotron*/
 
  section:nth-of-type(even) {
 
      background-color: var(--bg-color-even);
  }
+
+ .t-center {
+
+    text-align: center;
+ }
+
+ .call-to-action {
+
+    background-image: url("../img/stars.svg");
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 40%;
+    background-position: top center;
+    height:90px;
+    align-content: center;
+
+ }
+
+
+ .b-download-2 {
+
+    background-color: var(--link-color-hover-light);
+    color: var(--text-hover-button-light);
+    padding-inline: 2rem;
+    
+    
+ }
+
+ .b-download-2:hover {
+
+    background-color: var(--dark-color);
+
+}
+
 
 
  /*adventure*/
