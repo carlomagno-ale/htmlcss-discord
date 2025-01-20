@@ -1,9 +1,9 @@
    /*da disattivare*/
-    /*border-style: dashed;*/
+   /*border-style: dashed;*/
 
-/*debug da disattivare*/
+   /*debug da disattivare*/
 
-/*.debug {
+   /*.debug {
 
     .header-container {
         background-color: aqua;
@@ -81,197 +81,251 @@
 /* debug disattivato*/
 
 
-/*colors*/
+   /*colors*/
 
-:root {
+   :root {
 
-    --primary-top-color: #255ee9;
-    --dark-color: #23272a;
-    --text-hover-button-light: white;
-    --link-color: white;
-    --link-color-hover-light: #7289da;
+       --primary-top-color: #255ee9;
+       --dark-color: #23272a;
+       --text-hover-button-light: white;
+       --link-color: white;
+       --text-color-light: white;
+       --link-color-hover-light: #7289da;
 
-}
+   }
 
 
 
-/*common*/
+   /*common*/
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
-    font-family: sans-serif;
-}
+   * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       font-family: sans-serif;
+   }
 
-a:link {
+   a:link {
 
-    text-decoration: none;
-    color: var(--link-color);
-    
-}
+       text-decoration: none;
+       color: var(--link-color);
 
-a:hover {
+   }
 
-    color: var(--link-color-hover-light);
-}
+   a:hover {
 
-nav {
+       color: var(--link-color-hover-light);
+   }
 
-    font-weight: bold;
-    font-size: small;
-}
+   nav {
 
-button {
+       font-weight: bold;
+       font-size: small;
+   }
 
-    border-radius: 1rem;
-    padding-inline: 0.8rem;
-    padding-block: 0.5rem;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-}
+   button {
 
-button:hover {
+       border-radius: 2rem;
+       padding-inline: 0.9rem;
+       padding-block: 0.7rem;
+       border: none;
+       cursor: pointer;
+       font-weight: bold;
 
-    background-color: var(--dark-color) ;
-    color: var(--text-hover-button-light);
-}
+   }
 
-/*header*/
+   button:hover {
 
-.header-container {
-    padding: 1%;
-    background-color: var(--primary-top-color);
-}
+       background-color: var(--dark-color);
+       color: var(--text-hover-button-light);
+   }
 
+   /*utility*/
 
-.left {
-    justify-content: start;
-    align-items: center;
-}
 
-.right {
-    align-items: center;
-    justify-content: end;
-}
+   .flex-container {
 
-.left,
-.right {
-    width: 20%;
+       display: flex;
+       justify-content: center;
 
-}
 
-.center {
-    width: 40%;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+   }
 
-}
+   .wrap {
 
+       flex-wrap: wrap;
+   }
 
-/*jumbotron*/
+   .w-25 {
 
-.jumbotron {
+       width: 25%;
+   }
 
-    padding-block: 5%; 
+   .w-30 {
 
-}
+       width: 30%;
 
-.j-content {
+   }
 
-    
+   .w-40 {
+       width: 40%;
 
+   }
 
-    
-}
+   .w-60 {
 
-section:nth-of-type(1) {
+       width: 60%;
 
- 
-    background-image: url("../img/jumbo.png");
-    background-size: cover;
-    height: 500px;
+   }
 
-}
+   .w-70 {
 
-/*adventure*/
+       width: 70%;
+   }
 
-#adventure {
+   .section-class {
 
-    background-color: black;
-    padding-top: 1%;
-    padding-bottom: 3%;
+       padding: 5% 15%;
 
-}
+   }
 
-/*footer*/
+   .h-div-900 {
 
-.container-footer {
+       width: 100%;
+   }
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 70%;
-    margin-top: 2%;
+   /*header*/
 
-}
+   .header-container {
+       padding: 1%;
+       background-color: var(--primary-top-color);
+   }
 
-footer {
 
-    border-top: 1px solid grey;
-    background-color: black;
-}
+   .left {
+       justify-content: start;
+       align-items: center;
+   }
 
-/*utility*/
+   .right {
+       align-items: center;
+       justify-content: end;
+   }
 
-.flex-container {
+   .left,
+   .right {
+       width: 20%;
 
-    display: flex;
-    justify-content: center;
+   }
 
-}
+   .center {
+       width: 40%;
+       justify-content: center;
+       align-items: center;
+       gap: 1rem;
 
-.wrap {
+   }
 
-    flex-wrap: wrap;
-}
 
-.w-25 {
+   /*jumbotron*/
 
-    width: 25%;
-}
+   .jumbotron {
 
-.w-30 {
+       padding-block: 5%;
+       background-image: url("../img/jumbo.png");
+       background-size: cover;
+       height: 500px;
 
-    width: 30%;
+   }
 
-}
+   .j-content {
 
-.w-40 {
-    width: 40%;
+       width: 40%;
+       text-align: center;
+       color: var(--text-color-light);
 
-}
+       h1 {
 
-.w-60 {
+           font-size: 3rem;
+       }
 
-    width: 60%;
+       .p-jumbo {
 
-}
+           margin-top: 2rem;
+           margin-bottom: 2rem;
+       }
 
-.w-70 {
 
-    width: 70%;
-}
+       .h-button {
 
-.section-class {
+           height: 60px;
+           padding-inline: 2rem;
+           margin-inline: 0.7rem;
 
-    padding: 5% 15%;
+       }
 
-}
+       .b-download {
 
-.h-div-900 {
+           font-size: 1rem;
 
-    width: 100%;
-}
+       }
+
+       .symbol {
+
+        font-size: 0.9rem;
+
+       }
+
+       .b-browser {
+
+           font-size: 1rem;
+           background-color: var(--dark-color);
+           color: var(--text-color-light);
+
+       }
+
+       .b-browser:hover {
+
+           background-color: var(--link-color-hover-light);
+
+       }
+
+       .b-download:hover {
+
+           background-color: var(--link-color-hover-light);
+
+       }
+
+   }
+
+
+
+
+
+   /*adventure*/
+
+   #adventure {
+
+       background-color: black;
+       padding-top: 1%;
+       padding-bottom: 3%;
+
+   }
+
+   /*footer*/
+
+   .container-footer {
+
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       width: 70%;
+       margin-top: 2%;
+
+   }
+
+   footer {
+
+       border-top: 1px solid grey;
+       background-color: black;
+   }
