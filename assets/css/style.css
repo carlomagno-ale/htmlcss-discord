@@ -95,6 +95,7 @@
      --link-color: white;
      --text-color-light: white;
      --link-color-hover-light: #7289da;
+     --bg-color-even: #f6f6f6;
 
  }
 
@@ -319,7 +320,10 @@
  }
 
 
+ section:nth-of-type(even) {
 
+     background-color: var(--bg-color-even);
+ }
 
 
  /*adventure*/
