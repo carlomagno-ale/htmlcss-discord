@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /*da disattivare*/
+    border-style: dashed;
+
+}
+
+/*debug da disattivare*/
+
+.debug {
+
+    .header-container {
+        background-color: aqua;
+    }
+
+    .left,
+    .center,
+    .right {
+        background-color: orange;
+    }
+
+    .center {
+        min-height: 40px;
+    }
+
+    .jumbotron {
+        background-color: blue;
+    }
+
+    .j-content {
+        background-color: pink;
+        min-height: 400px;
+    }
+
+    .container-footer {
+        background-color: aquamarine;
+        min-height: 80px;
+    }
+
+    .w-60 {
+        background-color: lightskyblue;
+    }
+
+    .w-40 {
+        background-color: pink;
+    }
+
+    .h-div-900 {
+        background-color: green;
+    }
+
+    .background-dark {
+
+        background-color: grey;
+    }
+
+    .h-div-500 {
+
+        min-height: 500px;
+
+    }
+
+    .h-div-900 {
+        min-height: 900px;
+    }
+
+    .w-30 {
+        background-color: brown;
+        min-height: 500px;
+    }
+
+    .w-70 {
+        background-color: greenyellow;
+        min-height: 500px;
+
+    }
+
+    .w-25 {
+
+        min-height: 500px;
+    }
+
+}
+
+/*header*/
+
+.header-container {
+    padding: 1%;
+}
+
+.left {
+    justify-content: start;
+    align-items: center;
+}
+
+.right {
+    align-items: center;
+    justify-content: end;
+}
+
+.left,
+.right {
+    width: 20%;
+
+}
+
+.center {
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+
+/*jumbotron*/
+
+.jumbotron {
+
+    padding-block: 5%;
+
+}
+
+.j-content {
+
+    min-width: 60%;
+
+}
+
+/*adventure*/
+
+#adventure {
+
+    background-color: black;
+    padding-top: 1%;
+    padding-bottom: 3%;
+
+}
+
+/*footer*/
+
+.container-footer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-top: 2%;
+
+}
+
+footer {
+
+    border-top: 1px solid grey;
+    background-color: black;
+}
+
+/*utility*/
+
+.flex-container {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.wrap {
+
+    flex-wrap: wrap;
+}
+
+.w-25 {
+
+    width: 25%;
+}
+
+.w-30 {
+
+    width: 30%;
+
+}
+
+.w-40 {
+    width: 40%;
+
+}
+
+.w-60 {
+
+    width: 60%;
+
+}
+
+.w-70 {
+
+    width: 70%;
+}
+
+.section-class {
+
+    padding: 5% 15%;
+
+}
+
+.h-div-900 {
+
+    width: 100%;
+}
