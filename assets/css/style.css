@@ -95,6 +95,7 @@
 
     --primary-top-color: #3161e0;
     --dark-color: #23272a;
+    --text-hover-button-light: white;
 }
 
 a:link {
@@ -116,7 +117,7 @@ button {
 button:hover {
 
     background-color: var(--dark-color) ;
-    color: white;
+    color: var(--text-hover-button-light);
 }
 
 /*header*/
@@ -149,6 +150,17 @@ button:hover {
     align-items: center;
     gap: 1rem;
 
+}
+
+.text-color {
+
+    color: aliceblue;
+    font-weight: bold;
+}
+
+nav {
+
+    color: azure;
 }
 
 
