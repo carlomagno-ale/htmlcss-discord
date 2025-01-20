@@ -114,6 +114,11 @@
 
  }
 
+ a:visited {
+
+    color: var(--link-color);
+ }
+
  a:hover {
 
      color: var(--link-color-hover-light);
