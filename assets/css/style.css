@@ -411,3 +411,27 @@
 
      color: var(--link-color-hover-light);
  }
+
+ .list {
+
+
+ }
+
+ .social {
+
+
+    width: 1.5rem;
+    height: 1.5rem;
+
+
+ }
+
+ * {
+
+    border: dashed 1px;
+ }
+
+ .flex {
+
+    display: flex;
+ }
