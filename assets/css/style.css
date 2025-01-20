@@ -85,7 +85,7 @@
 
 :root {
 
-    --primary-top-color: #3161e0;
+    --primary-top-color: #255ee9;
     --dark-color: #23272a;
     --text-hover-button-light: white;
     --link-color: white;
@@ -175,22 +175,24 @@ button:hover {
 
 .jumbotron {
 
-    padding-block: 5%;
-    
+    padding-block: 5%; 
 
 }
 
 .j-content {
 
-    min-width: 60%;
+    
+
+
     
 }
 
 section:nth-of-type(1) {
 
  
-    background-image: url("../assets/img/jumbo.png") ;
-    background-color: red;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    height: 500px;
 
 }
 
