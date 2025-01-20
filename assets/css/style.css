@@ -146,14 +146,14 @@
 
  .img-size {
 
-    width:100%;
+     width: 100%;
 
  }
- 
-.section-title {
 
-    font-size: 2rem;
-    margin-bottom: 2rem;
+ .section-title {
+
+     font-size: 2rem;
+     margin-bottom: 1.5rem;
  }
 
  /*utility*/
@@ -166,6 +166,7 @@
 
 
  }
+
 
  .wrap {
 
@@ -187,12 +188,13 @@
      width: 40%;
      align-content: center;
 
+
  }
 
  .w-60 {
 
      width: 60%;
-     align-content: flex-start;
+     align-content: center;
 
  }
 
