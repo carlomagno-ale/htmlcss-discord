@@ -416,7 +416,7 @@
 
  .list {
 
-
+line-height: 2;
 
  }
 
@@ -425,6 +425,8 @@
     width: 1.5rem;
     height: 1.5rem;
     margin-top: 1rem;
+    gap: 1;
+
 
  }
 
@@ -443,3 +445,4 @@
     display: flex;
     
  }
+
